@@ -1,5 +1,5 @@
-x=int(input())
+x=int(input("Number: "))
 if x%2==1:
-    print("odd")
+    print(x, "- odd")
 else:
-    print("even")
+    print(x, "- even")
