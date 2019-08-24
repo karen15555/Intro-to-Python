@@ -7,4 +7,4 @@ BC = math.sqrt(AB ** 2 + AC ** 2)
 
 print(AB)
 print(AC)
-print(BC)
+print("The hypotenuse of the triangle ABC=", BC)
