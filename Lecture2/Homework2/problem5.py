@@ -19,7 +19,9 @@ print(cal)
 tdelta = datetime.timedelta(days = 1)
 ytday = tday-tdelta
 print(ytday)
+
 ytday+=2*tdelta
 print(ytday)
+
 ytday-=3*tdelta
 print(ytday)
