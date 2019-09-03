@@ -10,8 +10,9 @@ print(bday.day)
 print(bday.isoweekday())
 
 newbday=datetime.date(2020,1,14)
-tday=datetime.datetime.today()
-print(newbday-tday)
+tday=datetime.date.today()
+till_bday = newbday - tday
+print(till_bday)
 
 cal = calendar.month(2017, 5)
 print(cal)
