@@ -1,0 +1,7 @@
+tuple2=(1,2,3,4,5,6,7,8,9,10)
+print(tuple2)
+list2=list(tuple2)
+list2.pop(4)
+list2.insert(4, "Hello")
+tuple2=tuple(list2)
+print(tuple2)

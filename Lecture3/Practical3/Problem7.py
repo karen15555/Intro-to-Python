@@ -1,0 +1,10 @@
+l1 =list(range(1,10))
+print(l1)
+l2=list(range(10,21))
+print(l2)
+#l1.pop(-1)
+l1 = l1[:-1]
+l1.append(l2)
+print(l1)  
+l1.extend(l2) 
+print(l1)   
