@@ -1,0 +1,12 @@
+def div(x,y):
+    try:
+        return x/y
+    except Exception as e:
+        print("Error!", e)
+      
+
+d=div(15,10)
+print(d)
+
+c=div(10,0)
+print(c)
